@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <div id="calculator">
+            <form>
+                <input type="text" id="display" disabled>
+                <br>
+                <input type="button" value="C" id="keys" onclick="input('c')">
+                <input type="button" value="CE" id="keys" onclick="backspace()">
+                <input type="button" value="%" id="keys" onclick="input('%')">
+                <input type="button" value="+" id="keys" onclick="input('+')">
+                <br>
+                <input type="button" value="7" id="keys" onclick="input('7')">
+                <input type="button" value="8" id="keys" onclick="input('8')">
+                <input type="button" value="9" id="keys" onclick="input('9')">
+                <input type="button" value="-" id="keys" onclick="input('-')">
+                <br>
+                <input type="button" value="4" id="keys" onclick="input('4')">
+                <input type="button" value="5" id="keys" onclick="input('5')">
+                <input type="button" value="6" id="keys" onclick="input('6')">
+                <input type="button" value="*" id="keys" onclick="input('*')">
+                <br>
+                <input type="button" value="1" id="keys" onclick="input('1')">
+                <input type="button" value="2" id="keys" onclick="input('2')">
+                <input type="button" value="3" id="keys" onclick="input('3')">
+                <input type="button" value="/" id="keys" onclick="input('/')">
+                <br>
+                <input type="button" value="0" id="keys" onclick="input('0')">
+                <input type="button" value="." id="keys" onclick="input('.')">
+                <input type="button" value="=" id="eq" onclick="equals()">
+            </form>
+        </div>
+        
+        <!--<div class ="box">
+            
+            <div class="result">0</div>
+            
+            <div class="column">
+                    <div class="row">
+                    <button id="clear" class="del">ce</button>
+                    <button value="%" class="oper">%</button>
+                    <button value="/" class="oper">/</button>
+                </div>
+
+                <div class="row">
+                    <button value="7" class="num">7</button>
+                    <button value="8" class="num">8</button>
+                    <button value="9" class="num">9</button>
+                    <button value="*" class="oper">x</button>
+                </div>
+                
+                <div class="row">
+                    <button value="4" class="num">4</button>
+                    <button value="5" class="num">5</button>
+                    <button value="6" class="num">6</button>
+                    <button value="-" class="oper">-</button>
+                </div>
+                
+                <div class="row">
+                    <button value="1" class="num">1</button>
+                    <button value="2" class="num">2</button>
+                    <button value="3" class="num">3</button>
+                    <button value="+" class="oper">+</button>
+                </div>
+                
+                <div class="row">
+                    <button value="0" class="num zero">0</button>
+                    <button value="." class="oper">.</button>
+                    <button value="=" class="eq">=</button>
+                </div>
+
+            </div>
+
+        </div>-->
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>

@@ -10,6 +10,26 @@ function input(x) {
         box.value = x;
     }
 
+    if (box.value === '/') {
+        box.value = '';
+    }
+
+    if (box.value === '+') {
+        box.value = '';
+    }
+
+    if (box.value === '*') {
+        box.value = '';
+    }
+
+    if (box.value === '--') {
+        box.value = '-';
+    }
+
+    if (box.value === '..') {
+        box.value = '.';
+    }
+
     var num = box.value;
 }
 
@@ -19,7 +39,7 @@ function equals() {
     box.value = x;
 
     if (x === undefined) {
-        box.value = 'error'
+        box.value = 'error';
     }
 }
 
